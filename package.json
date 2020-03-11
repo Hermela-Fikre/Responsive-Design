@@ -1,0 +1,19 @@
+{
+  "name": "responsive-design",
+  "version": "1.0.0",
+  "description": "This project consists of replicating the TNW website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillipUg/responsive-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "https://github.com/PhillipUg/responsive-design#readme",
+  "dependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}

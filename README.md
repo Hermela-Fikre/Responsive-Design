@@ -1,2 +1,2 @@
 # Responsive-Design
-This project consists replicating of the TNW website
+This project consists of replicating the TNW website
