@@ -44,6 +44,30 @@
   color: #999;
 }
 
+.nav-icons > li {
+  border-left: 1px solid rgba(153, 153, 153, 0.63);
+  border-right: 1px solid rgba(153, 153, 153, 0.63);
+}
+
+.middle-nav .nav > li {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-icons > li:last-child {
+  /* color: #f42; */
+  display: none;
+}
+
+.news-item1 > .nav > li {
+  padding: 0;
+  margin: 0;
+}
+
+.popular-list > li:hover {
+  color: black;
+}
+
 .top-nav .nav > li:first-child {
   color: #fff;
 }
@@ -67,11 +91,6 @@
   text-transform: uppercase;
 }
 
-.middle-nav .nav > li {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .nav-icons .fas {
   padding: 10px 0;
   height: 48px;
@@ -79,16 +98,6 @@
   text-align: center;
   font-size: 20px;
   color: rgba(136, 136, 136, 0.555);
-}
-
-.nav-icons > li {
-  border-left: 1px solid rgba(153, 153, 153, 0.63);
-  border-right: 1px solid rgba(153, 153, 153, 0.63);
-}
-
-.nav-icons > li:last-child {
-  /* color: #f42; */
-  display: none;
 }
 
 .banner {
@@ -280,11 +289,6 @@
   margin-right: 20px;
 }
 
-.news-item1 > .nav > li {
-  padding: 0;
-  margin: 0;
-}
-
 .news-item1 > .nav > li::after {
   content: " | ";
 }
@@ -423,18 +427,6 @@
   padding-left: 20px;
 }
 
-.popular-list > li {
-  padding: 10px 10px 10px 0;
-  color: #555;
-  font-size: 13px;
-  font-weight: 400;
-  border-bottom: 1px solid rgb(170, 170, 170);
-}
-
-.popular-list > li:hover {
-  color: black;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -498,10 +490,10 @@
   }
 
   .nav-logo {
-    background-color: #fff;
     height: 80px;
     min-width: 106px;
     background: url("images/screen1.png") no-repeat;
+    background-color: #fff;
     background-size: cover;
     z-index: 2;
   }
@@ -613,6 +605,7 @@
 
   .nav-icons {
     margin-left: auto;
+    display: flex;
   }
 
   .banner {
@@ -624,8 +617,12 @@
     height: 48px;
   }
 
-  .nav-icons {
-    display: flex;
+  .popular-list > li {
+    padding: 10px 10px 10px 0;
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(170, 170, 170);
   }
 
   .nav-icons > li:last-child {
