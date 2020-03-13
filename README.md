@@ -1,8 +1,5 @@
-# Responsive-Design
-This project consists of replicating the TNW website
-
-# responsive design
-This project is focusing on responsive design of the The Next Web
+# Responsive design
+This project is focusing on responsive design of the The Next Web website.
 <br>
 <br>
 <img src="images/screen.png" width="700"> 
@@ -21,7 +18,7 @@ There are some elements on this page which are produced with Javascript but our 
 
 ## Getting started
 
-**For this project, you’ll try your best to recreate the smashing magazine web page. The main aim is to ensure the elements get placed and styled roughly the same way as the real page, so functionality is not a priority.**
+**For this project, you’ll try your best to recreate The Next Web website. The main aim is to ensure the elements get placed and styled roughly the same way as the real page, so functionality is not a priority.**
 
 Use the browser’s developer tools to inspect the real page and understand how elements are placed and styled. 
 Build your own page in a .html text file and open it in your browser to check it out.
